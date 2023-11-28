@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Ysabeau+SC:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    background-color: rgb(237, 237, 237);
+    width: 20vw;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Ysabeau SC', sans-serif;
+    height: 100vh;
+}
+
+.sidebar nav {
+    padding: 45px;
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 30px;
+    padding: 33px 0;
+}
+
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+.main {
+    /* background-color: rgb(127, 202, 215); */
+    width: 80vw;
+}
+
+.container {
+    display: flex;
+}
+
+.infoContainer {
+    background-color: darkgray;
+    height: 58vh;
+    width: 70vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.devInfo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.hello {
+    font-size: 45px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.name {
+    font-size: 50px;
+    font-family: 'Ysabeau SC', sans-serif;
+    font-weight: bold;
+}
+
+.About {
+    font-size: 28px;
+
+}
+
+.MoreAbout {
+    font-size: 22px;
+    font-family: unset;
+}
+
+.buttons{
+    margin-top: 34px; 
+
+}
+.buttons button {
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: white;
+    background-color: darkcyan;
+    font-weight: bold;
+    font-size: 21px;
+    cursor: pointer;
+    margin: 0 3px;
+}
+
+.buttons button:hover{
+    background-color: white;
+    color: darkcyan;
+}
+
+.devPic img {
+    height: 58vh;
+    width: 420px;
+}
