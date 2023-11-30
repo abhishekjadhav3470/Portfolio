@@ -53,6 +53,7 @@
     justify-content: center;
     flex-direction: column;
     font-family: 'Source Code Pro', monospace;
+
 }
 
 .hello {
@@ -165,31 +166,61 @@ p {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-.intro h2{
+.intro h2 {
     font-family: 'Times New Roman', Times, serif;
     margin: 12px;
 
 
 }
 
-.intro p{
+.intro p {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin: 12px;
 
 }
 
-.skillcontainer{
-    padding: 12px;    
-}
-
-.skillItem{
-    display: flex
+.skillcontainer {
+    padding: 12px;
 }
 
 
+.skillItem {
+    display: flex;
+    align-items: center;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 900;
+}
 
-.skill{
+
+.skill {
     width: 265px;
     height: 6px;
     background-color: red;
+    border: 2px solid rgb(34, 48, 53);
+}
+
+.hundred {
+    width: 265px;
+    background-color: darkslategray;
+}
+
+.fifty {
+    width: 180px;
+    background-color: rgb(217, 107, 107)
+}
+
+.t5 {
+    width: 120px;
+    background-color: rgb(31, 211, 151);
+}
+
+@media (max-width: 1130px) {
+    * {
+        background-color: lightblue;
+    }
+
+    .sidebar {
+        transform: translate(-443px, 0px);
+        position: absolute;
+    }
 }
