@@ -179,8 +179,14 @@ p {
 }
 
 .skillcontainer{
-    
+    padding: 12px;    
 }
+
+.skillItem{
+    display: flex
+}
+
+
 
 .skill{
     width: 265px;
