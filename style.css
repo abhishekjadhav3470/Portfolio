@@ -216,7 +216,7 @@ p {
 
 @media (max-width: 1130px) {
     * {
-        background-color: lightblue;
+        background-color: rgb(190, 225, 237);
     }
 
     .sidebar {
