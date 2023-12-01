@@ -10,8 +10,10 @@
     background-color: rgb(237, 237, 237);
     /* width: 280px; */
     font-family: 'Open Sans', sans-serif;
-    font-family: 'Ysabeau SC', sans-serif; /* This line is being overridden by the next line */
+    font-family: 'Ysabeau SC', sans-serif;
+    /* This line is being overridden by the next line */
     height: 100vh;
+    /* position: absolute; */
     transition: transform 0.3s ease-in;
 }
 
@@ -117,7 +119,7 @@
 .contactform {
     font-family: unset;
     padding: 0 34px;
-
+    margin: 0 88px;
     padding-top: 144px;
 
 }
@@ -170,8 +172,9 @@ p {
 
 .intro h2 {
     font-family: 'Times New Roman', Times, serif;
-    margin: 12px;
-
+    margin: 0 28px;
+    margin-top: 80px;
+    margin-left: 0px;
 
 }
 
@@ -221,26 +224,40 @@ p {
     position: absolute;
 }
 
-.ham{
+.hamburger {
     position: absolute;
     cursor: pointer;
     top: 10px;
     left: 10px;
 }
 
+.ham {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
 .cross {
-    margin-left: 182px;
+    margin-left: 213px;
+    margin-top: 3px;
 }
 
 
-
-/* @media (max-width: 1130px) {
-    * {
+@media (max-width: 1130px) {
+    /* * {
         background-color: rgb(190, 225, 237);
+    } */
+    .devPic{
+        display: none;
     }
-
-    .sidebar {
+    /* .sidebar {
         transform: translate(-443px, 0px);
         position: absolute;
-    }
-} */
+    } */
+}
+
+.main {
+    /* background-color: rgb(127, 202, 215); */
+    width: 80vw;
+    margin: 102px 155px;
+    margin-top: -68px;
+}
