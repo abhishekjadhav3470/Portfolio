@@ -8,11 +8,13 @@
 
 .sidebar {
     background-color: rgb(237, 237, 237);
-    width: 280px;
+    /* width: 280px; */
     font-family: 'Open Sans', sans-serif;
-    font-family: 'Ysabeau SC', sans-serif;
+    font-family: 'Ysabeau SC', sans-serif; /* This line is being overridden by the next line */
     height: 100vh;
+    transition: transform 0.3s ease-in;
 }
+
 
 .sidebar nav {
     padding: 45px;
@@ -214,7 +216,25 @@ p {
     background-color: rgb(31, 211, 151);
 }
 
-@media (max-width: 1130px) {
+.sidebarGo {
+    transform: translate(-443px, 0px);
+    position: absolute;
+}
+
+.ham{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+
+.cross {
+    margin-left: 182px;
+}
+
+
+
+/* @media (max-width: 1130px) {
     * {
         background-color: rgb(190, 225, 237);
     }
@@ -223,4 +243,4 @@ p {
         transform: translate(-443px, 0px);
         position: absolute;
     }
-}
+} */
