@@ -43,7 +43,7 @@
 }
 
 .infoContainer {
-    background-color: darkgray;
+    /* background-color: darkgray; */
     height: 58vh;
     width: 70vw;
     margin: 144px auto;
